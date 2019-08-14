@@ -112,6 +112,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 - [Javassist](https://jboss-javassist.github.io/javassist) - Tries to simplify bytecode editing.
 - [Mixin](https://github.com/SpongePowered/Mixin) - Manipulate bytecode at runtime using real Java code.
+- [Perses](https://github.com/nicolasmanic/perses) - Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering. 
 
 ### Caching
 
@@ -134,7 +135,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JCommander](http://jcommander.org) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
 - [jbock](https://github.com/h908714124/jbock) - Typesafe, reflection-free, annotation based command-line parser 
 - [JLine](https://github.com/jline/jline3) - Includes features from modern shells like completion or history.
-- [JOpt Simple](https://pholser.github.io/jopt-simple) - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.
+- [JOpt Simple](https://jopt-simple.github.io/jopt-simple) - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.
 - [picocli](http://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses.
@@ -224,6 +225,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything that simplifies interactions with the database.*
 
+- [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
 - [AranoDB](https://github.com/arangodb/arangodb-java-driver) -  ArangoDB Java driver.
 - [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
@@ -263,7 +265,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Parquet](https://parquet.apache.org) - Columnar storage format based on assembly algorithms from Google's paper on Dremel.
 - [Apache Thrift](https://thrift.apache.org) - Data interchange format that originated at Facebook.
 - [Big Queue](https://github.com/bulldog2011/bigqueue) - A big, fast and persistent queue based on memory-mapped files.
-- [Hyper MinHash](https://github.com/LiveRamp/HyperMinHash-java) - Probabilistic data structure for computing union, intersection, and set cardinality in loglog space. 
+- [HyperMinHash-java](https://github.com/LiveRamp/HyperMinHash-java) - Probabilistic data structure for computing union, intersection, and set cardinality in loglog space. 
 - [Persistent Collection](https://pcollections.org) - Persistent and immutable analogue of the Java Collections Framework.
 - [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
 - [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
@@ -302,6 +304,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
 - [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) - A symbol solver for Java.
 - [JRebel ![c]](https://zeroturnaround.com/software/jrebel) - Instantly reloads code and configuration changes without redeploys.
+- [Manifold](https://manifold.systems) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
 - [NoException](https://noexception.machinezoo.com) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 - [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) - Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.
 
@@ -429,6 +432,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that assist with creating HTTP requests and/or binding responses.*
 
+- [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC.
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [OkHttp](https://square.github.io/okhttp) - HTTP+SPDY client.
@@ -463,6 +467,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+- [image-comparison](https://github.com/romankh3/image-comparison) - Compares two images with the same sizes and shows the differences visually by drawing rectangles.
 
 ### JSON
 
@@ -567,7 +572,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.
 - [J2ObjC](https://github.com/google/j2objc) - Java-to-Objective-C translator for porting Android libraries to iOS.
 - [JavaCV](https://github.com/bytedeco/javacv) - Java interface to OpenCV, FFmpeg, and more.
-- [JavaX](http://javax.ai1.lol) - Reinventing and extending Java with a focus on simplicity.
+- [JavaX](http://javax.botcompany.de) - Reinventing and extending Java with a focus on simplicity.
 - [JBake](http://jbake.org) - Static website generator.
 - [JBot](https://github.com/ramswaroop/jbot) - Framework for building chatbots.
 - [JCuda](http://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
@@ -671,6 +676,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *APIs that handle the persistence of objects.*
 
 - [Apache Cayenne](https://cayenne.apache.org) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
+- [Doma 2](https://doma.readthedocs.io) - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
 - [Ebean](https://ebean-orm.github.io) - Provides simple and fast data access.
 - [EclipseLink](https://www.eclipse.org/eclipselink) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 - [Hibernate](http://hibernate.org/orm) - Robust and widely used, with an active community.
@@ -695,10 +701,11 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache FOP](https://xmlgraphics.apache.org/fop) - Creates PDFs from XSL-FO.
 - [Apache PDFBox](https://pdfbox.apache.org) - Toolbox for creating and manipulating PDFs.
 - [Dynamic Jasper](http://dynamicjasper.com) - Abstraction layer to JasperReports.
-- [DynamicReports](http://dynamicreports.org) - Simplifies JasperReports.
+- [DynamicReports](https://github.com/dynamicreports/dynamicreports) - Simplifies JasperReports.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
 - [iText ![c]](https://itextpdf.com) - Creates PDF files programmatically.
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+- [Open HTML to PDF](https://github.com/danfickle/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
 
 ### Performance analysis
 
@@ -895,7 +902,8 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Handlebars.java](https://jknack.github.io/handlebars.java) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 - [Jtwig](http://jtwig.org) - Modular, configurable and fully tested template engine.
-- [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
+- [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
+- [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
 - [Thymeleaf](http://www.thymeleaf.org) - Aims to be a substitute for JSP and works for XML files.
 
 ### Testing
@@ -922,6 +930,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JBehave](http://jbehave.org) - Extensively configurable framework that describes stories.
 - [JGiven](http://jgiven.org) - Provides a fluent API which allows for simpler composition.
 - [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.
+- [Serenity BDD](https://www.thucydides.info) - Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.
 
 #### Fixtures
 
@@ -1044,6 +1053,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Awesome lists related to the Java & JVM ecosystem.*
 
+- [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
@@ -1052,6 +1062,8 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
+- [Java Concurrency Checklist](https://github.com/code-review-checklists/java-concurrency)
+- [Java Developer Roadmap](https://github.com/s4kibs4mi/java-developer-roadmap)
 
 ### Communities
 
@@ -1119,6 +1131,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
 - [Randy Shoup](https://twitter.com/randyshoup) - Stitch Fix VP Engineering, speaker, JavaOne Rock Star.
 - [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
+- [Sander Mak](https://twitter.com/Sander_Mak) - Java Champion, author.
 - [Simon Maple](https://twitter.com/sjmaple) - Java Champion, VirtualJUG founder, LJC leader, RebelLabs author.
 - [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 - [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
